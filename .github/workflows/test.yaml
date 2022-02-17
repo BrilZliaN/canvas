@@ -11,11 +11,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Setup JDK 11
+      - name: Setup JDK 17
         uses: actions/setup-java@v2
         with:
-          java-version: '11'
-          distribution: 'adopt'
+          java-version: '17'
+          distribution: 'temurin'
       - name: Build
         run: ./gradlew build
       - name: Test
@@ -29,11 +29,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Setup JDK 11
+      - name: Setup JDK 17
         uses: actions/setup-java@v2
         with:
-          java-version: '11'
-          distribution: 'adopt'
+          java-version: '17'
+          distribution: 'temurin'
       - name: Build
         run: ./gradlew :example:build
       - name: Test
