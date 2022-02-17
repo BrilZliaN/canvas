@@ -4,14 +4,9 @@ import com.mattworzala.canvas.*
 import com.mattworzala.canvas.ext.InventoryHandle
 import com.mattworzala.canvas.extra.all
 import com.mattworzala.canvas.extra.indices
-import it.unimi.dsi.fastutil.ints.Int2ObjectMap
-import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap
-import net.minestom.server.data.Data
-import net.minestom.server.data.DataImpl
 import net.minestom.server.entity.Player
 import net.minestom.server.inventory.Inventory
 import java.util.*
-import java.util.function.IntFunction
 
 /**
  * A basic implementation of a [RenderContext]. Implementation details may vary, so this class should
